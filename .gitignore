@@ -1,0 +1,9 @@
+*
+!*/
+!*.md
+!*.png
+!*.jpg
+!*.jpeg
+!*.pdf
+!.gitignore
+!.github/workflows/docs-only.yml

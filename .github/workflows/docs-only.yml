@@ -1,0 +1,23 @@
+name: Docs only
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reject non-document files
+        shell: bash
+        run: |
+          set -euo pipefail
+          invalid=0
+          while IFS= read -r file; do
+            case "$file" in
+              .gitignore|.github/workflows/docs-only.yml|*.md|*.png|*.jpg|*.jpeg|*.pdf) ;;
+              *) echo "허용되지 않은 파일: $file"; invalid=1 ;;
+            esac
+          done < <(git ls-files)
+          exit "$invalid"
