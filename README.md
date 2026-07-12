@@ -8,6 +8,7 @@
 
 ## 문서 범위
 
+- [왜 Local Assistant를 만드는가](docs/WHY_LOCAL_ASSISTANT.md): 제품의 출발점, 목표, 고민과 아직 답하지 못한 질문
 - [개발 기록](docs/development/README.md): 구현 목적, 범위와 완료 조건
 - [변경 기록](docs/changes/README.md): 사용자에게 보이는 변경과 호환성 영향
 - [분석 및 평가](docs/evaluations/README.md): 검증 방법, 결과, 한계와 후속 판단
