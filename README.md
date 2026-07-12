@@ -16,7 +16,10 @@
 
 ## 현재 상태
 
-문서 저장소의 초기 구조와 문서 전용 검사가 마련되었습니다. 제품의 최신 구현 상태는 검증이 끝난 단위부터 개발 기록과 평가 문서에 추가합니다.
+문서 저장소의 초기 구조와 문서 전용 검사가 마련되었습니다. 현재 공개된 최신 기록은 다음과 같습니다.
+
+- [항목별 자료 수집과 Wiki Browser 편집](docs/development/2026-07-13-item-collection-and-wiki-browser.md)
+- [현재 작업분 검증 결과](docs/evaluations/2026-07-13-working-tree-validation.md)
 
 ## 원칙
 
