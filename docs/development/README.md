@@ -11,3 +11,8 @@
 - 검증 문서 링크
 
 새 문서는 `YYYY-MM-DD-주제.md` 형식으로 만들고 [개발 기록 양식](../templates/DEVELOPMENT_RECORD.md)을 사용합니다.
+
+## 현재 기록
+
+- [항목별 자료 수집과 Wiki Browser 편집](2026-07-13-item-collection-and-wiki-browser.md)
+- [모델 유휴 메모리 회수와 백그라운드 정리 예산](2026-07-13-model-idle-memory-and-background-organization.md)

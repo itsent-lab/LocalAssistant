@@ -8,13 +8,14 @@
 
 ## 검증된 현재 스냅샷
 
-**Python 회귀 테스트 421개 중 421개 통과 · 실패 0 · 오류 0 · 건너뜀 0 · macOS 앱 빌드 성공**
+**Python 회귀 테스트 437개 중 437개 통과 · 실패 0 · 오류 0 · 건너뜀 0 · macOS 앱 빌드·실행 반영 성공**
 
 | 검증 영역 | 결과 | 기준과 한계 |
 | --- | --- | --- |
-| Python 전체 회귀 테스트 | 총 421 / 통과 421 / 실패 0 / 오류 0 / 건너뜀 0 | 2026-07-13, 2.117초 |
+| Python 전체 회귀 테스트 | 총 437 / 통과 437 / 실패 0 / 오류 0 / 건너뜀 0 | 2026-07-13 |
 | macOS 앱 전체 빌드·서명 | 성공 | 2026-07-13 |
-| 실행 앱 재설치·실제 UI 종단 확인 | 미실행 | 코드·빌드 검증과 구분 |
+| 실행 앱 재설치·단일 프로세스·health 확인 | 성공 | 실제 UI 종단 조작과 구분 |
+| 모델 유휴 언로드 합성 smoke | 성공 | 실제 장기 열 측정은 미실행 |
 
 비공개 소스에서 직접 실행한 스냅샷이므로 공개 CI에서 독립 재현 가능한 증명은 아닙니다. 정적 배지로 완전한 무결성을 주장하지 않고 검증 범위와 한계를 함께 공개합니다.
 
@@ -48,7 +49,9 @@
 문서 저장소의 초기 구조와 문서 전용 검사가 마련되었습니다. 현재 공개된 최신 기록은 다음과 같습니다.
 
 - [항목별 자료 수집과 Wiki Browser 편집](docs/development/2026-07-13-item-collection-and-wiki-browser.md)
+- [모델 유휴 메모리 회수와 백그라운드 정리 예산](docs/development/2026-07-13-model-idle-memory-and-background-organization.md)
 - [현재 작업분 검증 결과](docs/evaluations/2026-07-13-working-tree-validation.md)
+- [제품 목표와 검증 지도](docs/evaluations/2026-07-13-product-validation-map.md)
 - [모바일 앱과 로컬 Assistant의 아웃바운드 연결 제안](docs/decisions/2026-07-13-mobile-local-assistant-transport.md)
 
 ## 원칙
