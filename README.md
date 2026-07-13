@@ -49,6 +49,7 @@
 
 - [항목별 자료 수집과 Wiki Browser 편집](docs/development/2026-07-13-item-collection-and-wiki-browser.md)
 - [현재 작업분 검증 결과](docs/evaluations/2026-07-13-working-tree-validation.md)
+- [모바일 앱과 로컬 Assistant의 아웃바운드 연결 제안](docs/decisions/2026-07-13-mobile-local-assistant-transport.md)
 
 ## 원칙
 
