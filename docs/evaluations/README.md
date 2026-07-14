@@ -8,6 +8,7 @@
 
 ## 현재 평가
 
+- [목표 대비 구조 간극과 변경 동결](2026-07-14-target-gap-and-change-freeze.md)
 - [항목별 수집과 Wiki Browser 작업분 검증](2026-07-13-working-tree-validation.md)
 - [모델 유휴 메모리와 백그라운드 정리 예산 검증](2026-07-13-model-idle-memory-validation.md)
 - [제품 목표와 검증 지도](2026-07-13-product-validation-map.md)

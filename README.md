@@ -48,6 +48,7 @@
 
 문서 저장소의 초기 구조와 문서 전용 검사가 마련되었습니다. 현재 공개된 최신 기록은 다음과 같습니다.
 
+- [목표 대비 구조 간극과 변경 동결](docs/evaluations/2026-07-14-target-gap-and-change-freeze.md)
 - [항목별 자료 수집과 Wiki Browser 편집](docs/development/2026-07-13-item-collection-and-wiki-browser.md)
 - [모델 유휴 메모리 회수와 백그라운드 정리 예산](docs/development/2026-07-13-model-idle-memory-and-background-organization.md)
 - [현재 작업분 검증 결과](docs/evaluations/2026-07-13-working-tree-validation.md)
