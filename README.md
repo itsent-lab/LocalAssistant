@@ -8,13 +8,13 @@
 
 ## 검증된 현재 스냅샷
 
-**Python 회귀 테스트 648개 중 648개 통과 · 실패 0 · 오류 0 · 건너뜀 0 · 최신 실행 코드의 macOS 앱 반영 성공**
+**Python 회귀 테스트 671개 중 671개 통과 · 실패 0 · 오류 0 · 건너뜀 0 · 최신 실행 코드의 macOS 앱 반영 성공**
 
 | 검증 영역 | 결과 | 기준과 한계 |
 | --- | --- | --- |
-| Python 전체 회귀 테스트 | 총 648 / 통과 648 / 실패 0 / 오류 0 / 건너뜀 0 | 2026-07-16, 3.193초 |
-| macOS 앱 전체 빌드·서명 | 성공 | 최신 실행 코드 변경 기준 2026-07-15 |
-| 실행 앱 재설치·단일 프로세스·health 확인 | 성공 | 최신 실행 코드 변경 기준 2026-07-15; 이번 문서 갱신에서는 미실행 |
+| Python 전체 회귀 테스트 | 총 671 / 통과 671 / 실패 0 / 오류 0 / 건너뜀 0 | 2026-07-18, 4.239초 |
+| macOS 앱 전체 빌드·서명 | 성공 | Wiki 문서 버전 비교 변경 포함, 2026-07-18 |
+| 실행 앱 재설치·단일 프로세스·health 확인 | 성공 | 과거·현재 좌우 본문과 변경 줄 색상을 실제 창에서 확인, 2026-07-18 |
 | 실제 개인 감시 강제 실행·외부 알림 발송 | 미실행 | 합성 회귀와 비전송 부분 검증의 범위와 구분 |
 
 비공개 소스에서 직접 실행한 스냅샷이므로 공개 CI에서 독립 재현 가능한 증명은 아닙니다. 정적 배지로 완전한 무결성을 주장하지 않고 검증 범위와 한계를 함께 공개합니다.
@@ -50,7 +50,7 @@
 
 - [목표 대비 구조 간극과 변경 동결](docs/evaluations/2026-07-14-target-gap-and-change-freeze.md)
 - [웹 감시 분류 알림과 메타데이터 정리](docs/development/2026-07-15-web-monitor-notification-quality.md)
-- [항목별 자료 수집과 Wiki Browser 편집](docs/development/2026-07-13-item-collection-and-wiki-browser.md)
+- [항목별 자료 수집과 Wiki Browser 편집·버전 비교](docs/development/2026-07-13-item-collection-and-wiki-browser.md)
 - [모델 유휴 메모리 회수와 백그라운드 정리 예산](docs/development/2026-07-13-model-idle-memory-and-background-organization.md)
 - [현재 작업분 검증 결과](docs/evaluations/2026-07-13-working-tree-validation.md)
 - [제품 목표와 검증 지도](docs/evaluations/2026-07-13-product-validation-map.md)
